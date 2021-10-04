@@ -1,0 +1,43 @@
+17:04:41 **** Incremental Build of configuration Default for project os ****
+make -f Makefile all 
+MAKE Version 3.6  Copyright (c) 1992 Borland International
+
+Available memory 33385584 bytes
+
+        configuration.xmi
+
+        bcc.exe -mh -v -eos.exe -IC:\bc31\include;..\; -LC:\bc31\lib;..\; ..\*.cpp  ..\*.lib 
+
+Borland C++  Version 3.1 Copyright (c) 1992 Borland International
+..\bounded.cpp:
+..\event.cpp:
+..\idle.cpp:
+..\intlock.cpp:
+..\ivtentry.cpp:
+..\kerev.cpp:
+..\kersem.cpp:
+Warning ..\kersem.cpp 42: Condition is always false in function KernelSem::wait(unsigned int)
+Warning ..\kersem.cpp 42: Condition is always false in function KernelSem::wait(unsigned int)
+Warning ..\kersem.cpp 42: Unreachable code in function KernelSem::wait(unsigned int)
+..\keyevent.cpp:
+Warning ..\keyevent.cpp 16: Condition is always false in function interrupt inter9(...)
+Warning ..\keyevent.cpp 16: Unreachable code in function interrupt inter9(...)
+..\list.cpp:
+..\main.cpp:
+Warning ..\main.cpp 20: 'ret' is assigned a value that is never used in function main(int,char * *)
+..\pcb.cpp:
+..\semaphor.cpp:
+..\sync.cpp:
+..\system.cpp:
+..\thread.cpp:
+Warning ..\thread.cpp 42: Unreachable code in function Thread::getRunningId()
+..\timelist.cpp:
+..\user.cpp:
+Turbo Link  Version 5.1 Copyright (c) 1992 Borland International
+
+
+        Available memory 4090060
+
+
+17:04:42 Build Finished (took 874ms)
+

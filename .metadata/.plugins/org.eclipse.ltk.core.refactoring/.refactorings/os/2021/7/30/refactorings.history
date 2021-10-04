@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;os/syncPrintf.cpp&apos; to &apos;sync.cpp&apos;" description="Rename resource &apos;syncPrintf.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="syncPrintf.cpp" name="sync.cpp" stamp="1626948054050" updateReferences="true"/>
+</session>
